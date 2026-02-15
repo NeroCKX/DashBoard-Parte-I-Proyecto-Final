@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Datos - Parte I del Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Dashboard</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+            </div>
+        </header>
+
+        <nav class="dashboard-nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Métricas</a></li>
+                <li><a href="#">Reportes</a></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+        </nav>
+
+        <main class="dashboard-main">
+            <section class="metrics-cards">
+                </section>
+
+            <section class="data-table-section">
+                <h2>Datos de Transacciones</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Producto</th>
+                            <th>Fecha</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </section>
+
+            <section class="chart-section">
+                <h2>Visualización de Datos</h2>
+                <div class="chart-container">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

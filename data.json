@@ -1,0 +1,42 @@
+{
+    "metrics": [
+        {
+            "title": "Ventas Totales",
+            "value": "$1,129,50"
+        },
+        {
+            "title": "Nuevos Usuarios",
+            "value": "22,322"
+        },
+        {
+            "title": "Tasa de Rebote",
+            "value": "28%"
+        }
+    ],
+    "transactions": [
+        {
+            "id": "634213",
+            "product": "Dildo 350 Professional Max",
+            "date": "2026-01-12",
+            "amount": 59.99
+        },
+        {
+            "id": "478934",
+            "product": "Preservativos Dr. Chapatin",
+            "date": "2026-01-17",
+            "amount": 9.50
+        },
+        {
+            "id": "768956",
+            "product": "Alfajores",
+            "date": "2026-01-02",
+            "amount": 999.99
+        },
+        {
+            "id": "634213",
+            "product": "Dildo 350 Professional Max",
+            "date": "2026-01-02",
+            "amount": 59.99
+        }
+    ]
+}
